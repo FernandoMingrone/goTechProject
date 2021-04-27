@@ -1,0 +1,63 @@
+export const homeObjOne = {
+    lightBg: false,
+    primary: true,
+    imgStart: "",
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    buttonLabel: "Get Started",
+    description: "We help Businesss owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+    headline: "Online Branding",
+    topLine: "Marketing Agency",
+    img: require('../../images/svg1.svg').default,
+    alt: "Image",
+    start: "",
+};
+
+export const homeObjTwo = {
+    lightBg: true,
+    primary: false,
+    imgStart: "start",
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
+    buttonLabel: "Get Started",
+    description: "If you are looking for relevant traffic and conversions on your website, you have to stand out from your competitors and build trust with your clients.",
+    headline: "Online Branding",
+    topLine: "Marketing Agency",
+    img: require('../../images/svg4.svg').default,
+    alt: "Image",
+    start: "true",
+};
+
+export const homeObjThree = {
+    lightBg: false,
+    primary: true,
+    imgStart: "",
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    buttonLabel: "Get Started",
+    description: "The amount and type of traffic directed to your website are the blueprint to the success of your online business. Even with a well-defined target market, you will need to implement proper SEO strategies to get discovered.",
+    headline: "SEO Assessments & Recommendations",
+    topLine: "Marketing Agency",
+    img: require('../../images/svg2.svg').default,
+    alt: "Image",
+    start: "",
+};
+
+export const homeObjFour = {
+    lightBg: true,
+    primary: false,
+    imgStart: "start",
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
+    buttonLabel: "Get Started",
+    description: "We help Businesss owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+    headline: "Lead Generation Specialist for Online Businesses",
+    topLine: "Marketing Agency",
+    img: require('../../images/svg4.svg').default,
+    alt: "Image",
+    start: "true",
+};
