@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const InfoSec = styled.div`
 color: #fff;
-padding: 60px 0 60px 20px;
+padding: 160px 0;
 background: ${({ lightBg }) => (lightBg ? "#CACDCA" : "#2965F2") };
 `;
 
