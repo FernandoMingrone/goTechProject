@@ -94,7 +94,7 @@ const Footer = () => {
                         <SocialIconLink href="/" target="_blank" aria-label="Twitter">
                             <FaTwitter />
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+                        <SocialIconLink href="https://linkedin.com/in/fernando-mingrone" target="_blank" aria-label="LinkedIn">
                             <FaLinkedin />
                         </SocialIconLink>
                     </SocialIcons>
