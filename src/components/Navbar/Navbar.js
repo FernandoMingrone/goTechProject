@@ -12,20 +12,20 @@ const Navbar = () => {
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
-        if(window.innerWidth <= 960) {
+        if (window.innerWidth <= 960) {
             setButton(false)
         } else {
             setButton(true)
         }
     }
-
-useEffect(() => {
-    showButton();
-}, []);     
+    //
+    useEffect(() => {
+        showButton();
+    }, []);
 
     return (
         <>
-            <IconContext.Provider value={{ color: "#fff"}}>
+            <IconContext.Provider value={{ color: "#fff" }}>
                 <Nav>
                     <NavbarContainer>
                         <NavLogo to="/" onClick={closeMobileMenu}>
